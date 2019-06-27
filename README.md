@@ -1,5 +1,5 @@
 # PyCam :camera:
-:film: A simple python script that records you camera feed into a file! Super lightweight and easy to use.
+:movie_camera: A simple python script that records you camera feed into a file! Super lightweight and easy to use.
 - Requirements: <a href="https://opencv.org">OpenCV</a>
 
 ## How to use? :thinking:
