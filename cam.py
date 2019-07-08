@@ -35,7 +35,10 @@ while True:
     cv2.imshow("Camera Feed", frame);
 
     if captureStarted and cap != None:
+        print("Recording! Current frame: " + str(a));
         cap.write(frame);
+    else:
+        print("Not recording!");
 
     # Any key to leave.
     key = cv2.waitKey(1);
