@@ -11,6 +11,8 @@ frame_width = int(video.get(3));
 frame_height = int(video.get(4));
 
 print("Video dimension is: " + str(frame_width) + "x" + str(frame_height));
+print("----------------------------------------------------------------"));
+#zaralhei o código, foi mal saulo meu lindo, mas é por uma causa justa <3
 
 answer = str(input("Wanna record (y/n)? "));
 
@@ -39,6 +41,7 @@ while True:
         cap.write(frame);
     else:
         print("Not recording!");
+        print("--------------");
 
     # Any key to leave.
     key = cv2.waitKey(1);
